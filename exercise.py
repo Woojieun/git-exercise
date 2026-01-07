@@ -30,7 +30,13 @@ def calculate_sum(a: int, b: int) -> int:
 
 
 def calculate_average(numbers: list) -> float:
+    total = 0
+    
+    for i in range (len(numbers)):
+        total += i
         
+    return total/len(numbers)  
+
     """
     숫자 리스트의 평균을 반환합니다.
 
