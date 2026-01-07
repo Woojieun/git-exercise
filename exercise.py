@@ -7,6 +7,8 @@ Git 워크플로우 실습 - 기본 함수 구현하기
 
 
 def calculate_sum(a: int, b: int) -> int:
+    return a+b
+
     """
     두 정수의 합을 반환합니다.
 
@@ -28,6 +30,7 @@ def calculate_sum(a: int, b: int) -> int:
 
 
 def calculate_average(numbers: list) -> float:
+        
     """
     숫자 리스트의 평균을 반환합니다.
 
@@ -48,6 +51,7 @@ def calculate_average(numbers: list) -> float:
 
 
 def find_max(numbers: list) -> int:
+    
     """
     숫자 리스트에서 최대값을 반환합니다.
 
