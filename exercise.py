@@ -57,6 +57,8 @@ def calculate_average(numbers: list) -> float:
 
 
 def find_max(numbers: list) -> int:
+    for i in range (len(numbers)):
+        return max(i)
     
     """
     숫자 리스트에서 최대값을 반환합니다.
